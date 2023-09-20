@@ -23,20 +23,6 @@ h2 {
     margin-bottom: 20px;
 }
 
-/* Lijststijlen */
-ol,
-ul {
-    margin: 0;
-    padding: 0;
-}
-
-/* Lijstpuntstijl */
-li {
-    margin-bottom: 10px;
-}
-
-
-
 p {
     text-align: center;
 }
@@ -109,11 +95,25 @@ body {
     display: flex;
     justify-content: center;
 }
+
+.large-flex h1{
+    display: inline-block;
+    width: 100%;
+}
+
+.large-flex p{
+    display: inline-block;
+    width: 100%;    
+}
+
 .large-grid {
     grid-column: span 2;
     align-items: center;
 }
-
+.opening{
+    display: flex;
+    flex-direction: column;
+}
 
 /* Footer-stijl */
 .footer {
@@ -151,8 +151,18 @@ body {
 .vak-body {
     background-color: white; 
 }
-
-
+.blok
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+ 
+}
+.blok p {
+    width: 75%;
+}
 /* Stijl voor het Curio-logo in de footer */
 .logo-text {
     font-size: 1.5rem;
